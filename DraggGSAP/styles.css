@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .box {
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    height: fit-content;
+    align-content: center;
+  }
+  .bolsa{
+    pointer-events: none;
+    user-select: none;
+    height: 500px;
+  }
+  
+  h1 {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    top: 0;
+  }
+
+  img {
+    height: 100px;
+  }
+
+.container {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 5px solid #f0fe;
+  }
+
