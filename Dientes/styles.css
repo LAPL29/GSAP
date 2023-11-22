@@ -1,13 +1,16 @@
- #dentadura {}
+/* Estilos anteriores permanecen igual */
 
-
-.dientesLimpios{
-  opacity: 1;
+/* Ocultar imagen de dientes limpios al inicio */
+.dientesLimpios {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
- .cepillo {
-   align-items: center;
-   justify-content: center;
-   padding: 0.5rem;
+/* Alinear las imágenes dentro del contenedor dentadura */
+#dentadura {
+    position: relative;
+}
 
- }
+/* Resto de estilos permanecen igual */
